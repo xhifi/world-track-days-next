@@ -1,5 +1,5 @@
 {
-  "name": "next-15",
+  "name": "world-track-days-front",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,14 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bright": "^0.8.5",
+    "dayjs": "^1.11.13",
+    "gray-matter": "^4.0.3",
+    "next": "15.0.0",
+    "next-auth": "^4.24.10",
+    "next-intl": "^3.23.5",
+    "next-mdx-remote": "^5.0.0",
     "react": "19.0.0-rc-65a56d0e-20241020",
     "react-dom": "19.0.0-rc-65a56d0e-20241020",
-    "next": "15.0.0"
+    "remark-gfm": "^4.0.0",
+    "remark-toc": "^9.0.0"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "@tailwindcss/typography": "^0.5.15",
     "eslint": "^8",
-    "eslint-config-next": "15.0.0"
+    "eslint-config-next": "15.0.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
